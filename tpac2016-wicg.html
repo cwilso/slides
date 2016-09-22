@@ -1,95 +1,105 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
+<head>
+  <title>TPAC 2016: WICG</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=792, user-scalable=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://www.w3.org/2014/shower/shower/themes/ribbon/styles/screen.css">
+  <link rel="stylesheet" href="https://www.w3.org/2014/shower/shower/themes/w3c/styles/styles_w3c.css">
+  <style>
+    #Cover h2, #Cover2 h2 {
+    top: 24px;
+    color: #fff;
+    font-size: 52px; /* Edit this to change the cover text size */
+    margin: 0;
+    position: absolute;
+    }
+    #Cover img, #Cover2 img {
+    height: 640px;
+    width: 1024px;
+    }
+    #Picture h2 {
+    colors: #fff;
+    }
+    .slide p.credit {
+    bottom: 8px;
+    margin-bottom: 0;
+    position:absolute;
+    right: 16px;
+    text-shadow: 0 0 8px #000;
+    color: #fff;
+    font-size: 12px;
+    }
+    .credit a:link, .credit a:visited {
+    color: white;
+    }
+    .slide:after {
+    top: 530px;
+    right: 50px;
+    width: 70px;
+    height: 68px;
+    background: url(pictures/TPAC_Logo_2016.png) no-repeat;
+    background-size: auto 68px;
+    background-position: 50% -0px;
+    padding: 60px 0 0;
+    color:  #135049;
+    }
+    .slide div {
+    padding: 72px 120px 0;
+    height: 568px;
+    }
+    .full .progress div {
+    border-bottom-color:#c2001d;
+    }
+    .slide.shout h2 {
+    font-size: 108px;
+    }
+  </style>
+</head>
+<body class="list">
+  <header class="caption">
+    <h1>TPAC 2016: WICG</h1>
+    <p>Chris Wilson, Google</p>
+  </header>
 
-	<head>
-		<meta charset="utf-8">
+  <section class="slide cover" id="Cover"><div>
+      <h2 style="left:24px;">WICG</h2>
+      <h2 style="right:24px;">Chris Wilson, Google</h2>
+      <img src="pictures/TPAC_Slides_2016-01.png" alt="TPAC 2016 logo">
+  </div></section>
 
-		<title>WICG</title>
-
-		<meta name="description" content="presentation on WICG for TPAC 2016">
-		<meta name="author" content="Chris Wilson">
-
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
-
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
-
-	<body>
-
-		<div class="reveal">
-
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1>WICG</h1>
-					<h3>Web Incubation</h3>
-					<p>
-						<small>Chris Wilson / <a href="http://twitter.com/cwilso">@cwilso</a></small>
-					</p>
-					<p>
-						<small>These slides: <a href="https://cwilso.github.io/slides/tpac2016-wicg.html">https://cwilso.github.io/slides/tpac2016-wicg.html</a></small>
-					</p>
-
-				</section>
-
-				<section>
-					<h2>What's WICG?</h2>
-					<p>
-						<a href="https://wicg.github.io/admin/charter.html">https://wicg.github.io/admin/charter.html</a>
-
-					</p>
-				</section>
-
-				<section>
-					<h2>Why Incubation?</h2>
-					<p>To enable open, fast, IP-managed iteration on ideas...</p>
-					<p class="fragment">... and graceful failure if they don't work out.</p>
-
-					<aside class="notes">
-					</aside>
-				</section>
-
-				<section>
-					<h2>Why Incubate in a Single CG?</h2>
-					<p>You don't need to!</p>
-					<p class="fragment">... but it's a good <a href="">firehose-of-ideas</a> community on wicg.discourse.io ...</p>
-					<p class="fragment">... and a single CG makes legal signup easier.</p>
-
-					<aside class="notes">
-					</aside>
-				</section>
+<h3></h3>
 
 
-				<section>
-					<h2>What's Cooking?</h2>
-					<p>Lots of stuff! Check it out at <a href="https://github.com/WICG/">https://github.com/WICG/</a>.</p>
-					<aside class="notes">
-					</aside>
-				</section>
 
-				<section>
-					<h2>All The Incubations!</h2>
-<small><pre>web-share - Web API proposal for sharing data from a web page
+
+ <section class="slide"><div>
+        <h2>What's WICG?</h2>
+        <p><a href="https://wicg.github.io/admin/charter.html">https://wicg.github.io/admin/charter.html</a></p>
+    </div></section>
+
+ <section class="slide"><div>
+        <h2>Why Incubation?</h2>
+          <p>To enable open, fast, IP-managed iteration on ideas...</p>
+          <p class="fragment">... and graceful failure if they don't work out.</p>
+    </div></section>
+
+ <section class="slide"><div>
+        <h2>Why Incubate in a Single CG?</h2>
+          <p>You don't need to!</p>
+          <p class="fragment">... but it's a good <a href="">firehose-of-ideas</a> community on wicg.discourse.io ...</p>
+          <p class="fragment">... and a single CG makes legal signup easier.</p>
+    </div></section>
+
+    <section class="slide"><div>
+          <h2>What's Cooking?</h2>
+          <p>Lots of stuff! Check it out at <a href="https://github.com/WICG/">https://github.com/WICG/</a>.</p>
+    </div></section>
+
+    <section class="slide"><div>
+          <h2>All The Incubations!</h2>
+<xmp style="font-size:33%">web-share - Web API proposal for sharing data from a web page
 IntersectionObserver - API Sketch for Intersection Observers
 auxclick - Description for non-primary button click event
 inert - Exploring the `inert` attribute
@@ -118,49 +128,23 @@ CSS-Parser-API - This is the repo where the CSS Houdini parser API will be worke
 directory-upload - This spec aims to enable directory uploading by allowing a developer to read directory contents (files and sub-directories) asynchronously and be able to identify the directory structure.
 a11yapi - Accessibility API
 modality
-</pre></small>
-				</section>
+</xmp>
+    </div></section>
+    <section class="slide"><div>
+          <h2>Thanks!</h2>
+          <p><a href="https://github.com/WICG/">https://github.com/WICG/</a></p>
+          <p>
+            <small>These slides: <a href="https://cwilso.github.io/slides/tpac2016-wicg.html">https://cwilso.github.io/slides/tpac2016-wicg.html</a></small>
+          </p>
+    </div></section>
 
-				<section>
-					<h2>Thanks!</h2>
-					<p><a href="https://github.com/WICG/">https://github.com/WICG/</a></p>
-					<p>
-						<small>These slides: <a href="https://cwilso.github.io/slides/tpac2016-wicg.html">https://cwilso.github.io/slides/tpac2016-wicg.html</a></small>
-					</p>
-					<aside class="notes">
-					</aside>
-				</section>
 
-			</div>
-
-		</div>
-
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
-
-		<script>
-
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
-
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
-			});
-
-		</script>
-
-	</body>
+  <!--
+      To hide progress bar from entire presentation
+      just remove “progress” element.
+    -->
+  <div class="progress"><div></div></div>
+  <script src="https://www.w3.org/2014/shower/shower/shower.min.js"></script>
+  <!-- Shower Presentation Engine available here: http://shwr.me -->
+</body>
 </html>
